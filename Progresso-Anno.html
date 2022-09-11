@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progresso Anno Corrente</title>
+
+  <link rel="icon" href="https://i.pinimg.com/originals/ee/ba/72/eeba7272a283d5a819121dbe41a8de1a.png">
+  <link rel="stylesheet" href="./progress.css">
+
+</head>
+<body>
+
+<header class="header">
+	<h1 class="header__title">Anno / <span id="year_num"></span></h1>
+</header>
+<div class="day_night" id="day_night">
+	<span class="day_icon">🌤️</span>
+	<span class="night_icon">🌙</span>
+</div>
+<main class="main" id="main">
+	<div class="year_progress grid-item">
+		<p>Progresso Anno: <span id="yp_text"></span></p>
+		<div class="bar">
+			<div id="yp_bar"></div>
+		</div>
+	</div>
+	<div class="month_progress grid-item">
+		<p>Progresso Mese: <span id="mp_text"></span></p>
+		<div class="bar">
+			<div id="mp_bar"></div>
+		</div>
+	</div>
+	<div class="day_progress grid-item">
+		<p>Progresso Giorno: <span id="dp_text"></span></p>
+		<div class="bar">
+			<div id="dp_bar"></div>
+		</div>
+	</div>
+	<div class="hour_progress grid-item">
+		<p>Progresso Ora: <span id="hp_text"></span></p>
+		<div class="bar">
+			<div id="hp_bar"></div>
+		</div>
+	</div>
+	<div class="days">
+		<p>Giorno:</p>
+		<div class="days_cont" id="days_cont"></div>
+	</div>
+</main>
+  <script  src="./progress.js"></script>
+
+</body>
+</html>
